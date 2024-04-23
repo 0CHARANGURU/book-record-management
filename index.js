@@ -1,6 +1,9 @@
 const express =require("express");
 const {users}=require("./users.json")
 
+const userRouter=require("./routes/users.js")
+const bookRouter=require("./routes/books.js")
+
 
 const app=express()
 const PORT=8081
@@ -10,16 +13,8 @@ app.get('/',(req,res)=>{
         message:"server is running"
     })
 })
-
-app.get('/users',(req,res)=>{
-    res.status(200).json({
-        status:true,
-        data:users
-    })
-})
-
-
-
+app.use('/users',userRouter);
+app.use('/books',bookRouter);
 
 app.get('*',(req,res)=>{
     res.status(200).json({
