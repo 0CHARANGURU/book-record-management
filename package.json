@@ -1,0 +1,26 @@
+{
+  "name": "bookmanagementapi",
+  "version": "1.0.0",
+  "description": "This is book record backend API application",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "cg":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0CHARANGURU/book-record-management.git"
+  },
+  "author": "charan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0CHARANGURU/book-record-management/issues"
+  },
+  "homepage": "https://github.com/0CHARANGURU/book-record-management#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
