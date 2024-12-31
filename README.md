@@ -37,9 +37,9 @@ GET:get all issued books
 GET:get all issued books with fine
 
 # Subscription type
->>>basic =3 months
->>>standard =6 months
->>>premium =12 months
+>>>basic =3 months <br/>
+>>>standard =6 months <br/>
+>>>premium =12 months <br/>
 
 
 
@@ -48,6 +48,6 @@ GET:get all issued books with fine
 
 
 ### commands
-...npm init
-...npm i express
-...npm i nodemon --save-dev
+...npm init <br/>
+...npm i express <br/>
+...npm i nodemon --save-dev <br/>
